@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LibMan – UBC Library Matcher</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Find Your Perfect UBC Library</h1>
+  <form id="quizForm">
+    <label>Seating Capacity:</label>
+    <select name="seating">
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select><br>
+
+    <label>Preferred Noise Level:</label>
+    <select name="noise">
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select><br>
+
+    <label>Special Feature Keyword:</label>
+    <input type="text" name="feature" placeholder="e.g., models"><br>
+
+    <button type="submit">Match Me!</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
